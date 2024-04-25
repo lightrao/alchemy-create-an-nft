@@ -43,6 +43,22 @@ proxychains4 npx hardhat run scripts/deploy.js --network sepolia
 
 contract deployed address is: `0xB9CB6c574FC159AD8343C32Da5302981f9F77725`
 
+# Mint an NFT from Code
+
+Creating the Mint NFT Script `mint-nft.js`
+
+run:
+
+```shell
+node scripts/mint-nft.js
+```
+
+we get something in shell:
+
+```
+NFT Minted! Check it out at: https://sepolia.etherscan.io/tx/0xd7e4a5b22432efa70c2417aad0603389bb2995ecaaa21bfe31731bfdc47c3ee8
+```
+
 # Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
